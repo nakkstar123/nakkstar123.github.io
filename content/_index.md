@@ -54,7 +54,7 @@ sections:
 #      username: admin
 #    design:
 #      columns: '1'
- - block: experience
+ - block: experience # add logos later
    id: exp
    content:
      title: Experience
@@ -75,21 +75,72 @@ sections:
          date_start: '2023-03-01'
          date_end: ''
          description: |2-
-             * Recruited 40+ members
-             * Organized a reading group
-             * Presented topics in cryptography
+             * Established the first theoretical computer science student-run organization at UCLA
+             * Recruited over 40 graduate and undergraduate students
+             * Organized a reading group to present topics in cryptography and coding theory
 
 
-       - title: Lead Instructor
+       - title: Lead Instructor | Intermediate 2A
+         company: Olga Radko Endowed Math Circle
+         company_url: ''
+         company_logo: ''
+         location: California
+         date_start: '2023-06-01'
+         date_end: ''
+         description: |2-
+             * Organized and led weekly math classes for 25 middle school and high school students.
+             * Designed worksheets in topics including graph theory, error-correcting codes, and combinatorics
+       - title: Course Reader | Discrete Mathematics [Math 61]
+         company: UCLA Department of Mathematics
+         company_url: ''
+         company_logo: ''
+         location: California
+         date_start: '2024-01-01'
+         date_end: ''
+         description: |2-
+             * Created rubrics and graded weekly proof-based homeworks for discrete mathematics
+             * Provided more than 80 students with detailed individual feedback. 
+       - title: Course Reader | Honors Linear Algebra [Math 115AH]
+         company: UCLA Department of Mathematics
+         company_url: ''
+         company_logo: ''
+         location: California
+         date_start: '2023-03-01'
+         date_end: '2023-12-01'
+         description: |2-
+             * Created rubrics and graded weekly proof-based homeworks for honors linear algebra 
+             * Provided more than 150 students with detailed individual feedback. 
+       - title: Assistant Instructor | Advanced 3
+         company: Olga Radko Endowed Math Circle
+         company_url: ''
+         company_logo: ''
+         location: California
+         date_start: '2022-12-01'
+         date_end: '2023-06-01'
+         description: |2-
+             * Assisted in teaching weekly math classes for 30 high school students
+             * Worked solutions and helped students through worksheets in algebraic geometry
+       - title: Lead Instructor | Advanced 2A
          company: Olga Radko Endowed Math Circle
          company_url: ''
          company_logo: ''
          location: California
          date_start: '2022-06-01'
-         date_end: ''
+         date_end: '2022-12-01'
          description: |2-
-             * Conducted problem-solving sessions
-             * Designed worksheets in graph theory, error-correcting codes, optimixation, etc.
+             * Organized and led weekly math classes for 25 high school students
+             * Designed worksheets in topics including special relativity and optimization
+       - title: Lead Engineer, Trajectory Simulations | Prometheus Hybrid Rocket
+         company: Rocket Project at UCLA
+         company_url: ''
+         company_logo: ''
+         location: California
+         date_start: '2021-12-01'
+         date_end: '2022-06-01'
+         description: |2-
+             * Programmed a 6 degree-of-freedom simulation model in MATLAB for the hybrid fuel rocket team at UCLA.
+             * Simulation was used to predict rocket apogee, off-the-rail-speed, and stability during ascent.
+       
    design:
      columns: '2'
 
