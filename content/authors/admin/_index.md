@@ -156,5 +156,5 @@ highlight_name: true
 
 
 
-Nakul Khambhati is a junior at the University of California, Los Angeles where he is pursuing an integrated masters program in Computer Science and Mathematics. His research interests include cryptography, large language models and combinatorics. He is currently involved in research projects with Prof. Rafail Ostrovsky and Prof. Amit Sahai. He is the founder and president of [Theory@UCLA](https://www.theoryatucla.com/), a theoretical computer science student organization at UCLA and a lead instructor for the [Olga Radko Endowed Math Circle](https://circles.math.ucla.edu/circles/).
+Nakul Khambhati is a junior at the University of California, Los Angeles where he is pursuing an integrated masters program in Computer Science and Mathematics. His research interests include cryptography, large language models and combinatorics. He is currently involved in research projects with Prof. Rafail Ostrovsky and Prof. Amit Sahai. He is the president and co-founder of [Theory@UCLA](https://www.theoryatucla.com/), a theoretical computer science student organization, and a lead instructor for the [Olga Radko Endowed Math Circle](https://circles.math.ucla.edu/circles/).
 {style="text-align: justify;"}
