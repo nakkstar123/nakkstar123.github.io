@@ -27,11 +27,11 @@ publication_short: ""
 
 abstract: "It was shown in [[GIOZ19]](https://eprint.iacr.org/2017/520) that enforcing sublinear communication complexity in secure multiparty computation drastically affects the feasibility bounds on the number of corrupted parties that can be tolerated in the setting of information-theoretic security.
 
-We provide an investigation of security in the presence of a semi-honest
+We provide an investigation of security in the presence of semi-honest
 mobile adversaries with erasures. We prove bounds on the corruptions that can be tolerated, which we also show to be essentially optimal."
 
 # Summary. An optional shortened abstract.
-summary: "This paper is a **work in progress**. We provide an investigation of secure multiparty computation with information theoretic security and sublinear communication complexity in the presence of a semi-honest mobile adversaries with erasures. We prove bounds on the corruptions that can be tolerated, which we also show to be essentially optimal."
+summary: "This paper is a **work in progress**. We provide an investigation of secure multiparty computation with information theoretic security and sublinear communication complexity in the presence of semi-honest mobile adversaries with erasures. We prove bounds on the corruptions that can be tolerated, which we also show to be essentially optimal."
 
 # tags: []
 categories: []

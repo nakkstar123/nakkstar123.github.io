@@ -88,7 +88,7 @@ sections:
          date_start: '2023-06-01'
          date_end: ''
          description: |2-
-             * Organized and led weekly math classes for 25 middle school and high school students.
+             * Organized and led weekly math classes for 25 middle school and high school students
              * Designed worksheets in topics including graph theory, error-correcting codes, and combinatorics
        - title: Course Reader | Discrete Mathematics [Math 61]
          company: UCLA Department of Mathematics
@@ -99,7 +99,7 @@ sections:
          date_end: ''
          description: |2-
              * Created rubrics and graded weekly proof-based homeworks for discrete mathematics
-             * Provided more than 80 students with detailed individual feedback. 
+             * Provided more than 80 students with detailed individual feedback 
        - title: Course Reader | Honors Linear Algebra [Math 115AH]
          company: UCLA Department of Mathematics
          company_url: ''
@@ -109,7 +109,7 @@ sections:
          date_end: '2023-12-01'
          description: |2-
              * Created rubrics and graded weekly proof-based homeworks for honors linear algebra 
-             * Provided more than 150 students with detailed individual feedback. 
+             * Provided more than 150 students with detailed individual feedback 
        - title: Assistant Instructor | Advanced 3
          company: Olga Radko Endowed Math Circle
          company_url: ''
@@ -138,8 +138,8 @@ sections:
          date_start: '2021-12-01'
          date_end: '2022-06-01'
          description: |2-
-             * Programmed a 6 degree-of-freedom simulation model in MATLAB for the hybrid fuel rocket team at UCLA.
-             * Simulation was used to predict rocket apogee, off-the-rail-speed, and stability during ascent.
+             * Programmed a 6 degree-of-freedom simulation model in MATLAB for the hybrid fuel rocket team at UCLA
+             * Simulation was used to predict rocket apogee, off-the-rail-speed, and stability during ascent
        
    design:
      columns: '2'

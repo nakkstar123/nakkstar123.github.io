@@ -52,23 +52,26 @@ bio: My research interests include cryptography, large language models and combi
 
 
 # Interests to show in About widget
-interests:
-- Cryptography
-- Large Language Models
-- Combinatorics
+# interests:
+# - Cryptography
+# - Large Language Models
+# - Combinatorics
 
 
 
 
 # Education to show in About widget
 education:
-courses:
-  - course: MA in Mathematics
-    institution: University of California, Los Angeles
-    year: 2025
-  - course: BSc in Computer Science & Mathematics
-    institution: University of California, Los Angeles
-    year: 2025
+  courses:
+    - course: M.A. | Mathematics
+      institution: University of California, Los Angeles
+      year: 2025
+    - course: B.S. | Computer Science
+      institution: University of California, Los Angeles
+      year: 2025
+    - course: B.S. | Mathematics
+      institution: University of California, Los Angeles
+      year: 2025
 
 
 
@@ -156,5 +159,5 @@ highlight_name: true
 
 
 
-Nakul Khambhati is a junior at the University of California, Los Angeles where he is pursuing an integrated masters program in Computer Science and Mathematics. His research interests include cryptography, large language models and combinatorics. He is currently involved in research projects with Prof. Rafail Ostrovsky and Prof. Amit Sahai. He is the president and co-founder of [Theory@UCLA](https://www.theoryatucla.com/), a theoretical computer science student organization, and a lead instructor for the [Olga Radko Endowed Math Circle](https://circles.math.ucla.edu/circles/).
+Nakul Khambhati is a junior at the University of California, Los Angeles where he is pursuing an integrated masters program in Computer Science and Mathematics. His research interests include **cryptography**, **large language models** and **combinatorics**. He is currently involved in research projects with [Prof. Rafail Ostrovsky](https://web.cs.ucla.edu/~rafail/) and [Prof. Amit Sahai](https://web.cs.ucla.edu/~sahai/). He is the president and co-founder of [Theory@UCLA](https://www.theoryatucla.com/), a theoretical computer science student organization, and a lead instructor for the [Olga Radko Endowed Math Circle](https://circles.math.ucla.edu/circles/).
 {style="text-align: justify;"}
