@@ -1,7 +1,7 @@
 ---
 # Documentation: https://hugoblox.com/docs/managing-content/
 
-title: "Proactive MPC with Low Communication*"
+title: "MPC in the Sky*"
 # authors: 
 # # - "Wonseok Choi"
 # - "Nakul Khambhati"
@@ -10,7 +10,7 @@ title: "Proactive MPC with Low Communication*"
 # - "Vassilis Zikas"
 
 weight: 1
-date: 2024-02-01T20:00:07+05:30
+date: 2024-03-01T20:00:07+05:30
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
@@ -26,13 +26,10 @@ publication_types: ["3"]
 publication: ""
 publication_short: ""
 
-abstract: "It was shown in [[GIOZ19]](https://eprint.iacr.org/2017/520) that enforcing sublinear communication complexity in secure multiparty computation affects the feasibility bounds on the number of corrupted parties that can be tolerated in the setting of information-theoretic security.
-
-We provide an investigation of security in the presence of semi-honest and malicious
-mobile adversaries with erasures. We prove bounds on the corruptions that can be tolerated, which we also show to be essentially optimal."
+abstract: "We present and prove security of a protocol for two clients to securely authenticate to an AWS server. We describe how this enables very efficient secure computation by off-loading heavy computation to the cloud. We use MP-SDPZ for implementing TLS-in-MPC and encrypting web requests."
 
 # Summary. An optional shortened abstract.
-summary: "We provide an investigation of secure multiparty computation with information theoretic security and sublinear communication complexity in the presence of semi-honest and malicious mobile adversaries with erasures. We prove bounds on the corruptions that can be tolerated, which we also show to be essentially optimal."
+summary: "We present and prove security of a protocol for two clients to securely authenticate to an AWS server. We describe how this enables very efficient secure computation by off-loading heavy computation to the cloud. We use MP-SDPZ for implementing TLS-in-MPC and encrypting web requests."
 
 # tags: []
 categories: []
@@ -79,7 +76,4 @@ slides: ""
 ---
 *This paper is a **work in progress**.
 
-It was shown in [[GIOZ19]](https://eprint.iacr.org/2017/520) that enforcing sublinear communication complexity in secure multiparty computation affects the feasibility bounds on the number of corrupted parties that can be tolerated in the setting of information-theoretic security.
-
-We provide an investigation of security in the presence of semi-honest and malicious
-mobile adversaries with erasures. We prove bounds on the corruptions that can be tolerated, which we also show to be essentially optimal.
+We present and prove security of a protocol for two clients to securely authenticate to an AWS server. We describe how this enables very efficient secure computation by off-loading heavy computation to the cloud. We use MP-SDPZ for implementing TLS-in-MPC and encrypting web requests.

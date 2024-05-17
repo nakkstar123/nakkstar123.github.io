@@ -1,14 +1,15 @@
 ---
 # Documentation: https://hugoblox.com/docs/managing-content/
 
-title: "Impossibility of watermarking large language models"
+title: "Watermarking LLMs*"
 authors: 
-- "Siddharth Chalasani"
-- "Boran Erol"
-- "Fabrice Harel-Canada"
-- "Nakul Khambhati"
-- "Amit Sahai"
-date: 2024-01-01T20:09:52+05:30
+# - "Siddharth Chalasani"
+# - "Boran Erol"
+# - "Fabrice Harel-Canada"
+# - "Nakul Khambhati"
+# - "Amit Sahai"
+weight: 2
+date: 2024-01-01T20:00:07+05:30
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
@@ -24,10 +25,10 @@ publication_types: ["3"]
 publication: ""
 publication_short: ""
 
-abstract: "We provide experimental evidence refuting assumptions made in [arXiv:2311.04378](https://arxiv.org/abs/2311.04378v2) [cs.LG]. We present queries and responses for which the specified perturbation attack fails and suggest an alternate attack with more realistic assumptions that succeeds in practice."
+abstract:
 
 # Summary. An optional shortened abstract.
-summary: "This project is a **work in progress**. We provide experimental evidence refuting assumptions made in [arXiv:2311.04378](https://arxiv.org/abs/2311.04378v2) [cs.LG]. We present queries and responses for which the specified perturbation attack fails and suggest an alternate attack with more realistic assumptions that succeeds in practice."
+summary: "We engineer and analyze random walk attacks on state-of-the-art watermarking schemes in different entropy settings. To support our claims, we present experimental evidence obtained by watermarking open-source models such as Mixtral."
 
 tags: []
 categories: []
@@ -42,7 +43,7 @@ featured: false
 #   icon: twitter
 
 url_pdf:
-url_code: 'https://github.com/borito1907/impossibility-watermark'
+url_code:
 url_dataset:
 url_poster:
 url_project:
@@ -73,4 +74,6 @@ projects: []
 slides: ""
 ---
 
-We provide experimental evidence refuting assumptions made in [arXiv:2311.04378](https://arxiv.org/abs/2311.04378v2) [cs.LG]. We present queries and responses for which the specified perturbation attack fails and suggest an alternate attack with more realistic assumptions that succeeds in practice.
+*This project is a **work in progress**. 
+
+We engineer and analyze random walk attacks on state-of-the-art watermarking schemes in different entropy settings. To support our claims, we present experimental evidence obtained by watermarking open-source models such as Mixtral.

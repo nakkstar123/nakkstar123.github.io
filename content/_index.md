@@ -43,7 +43,7 @@ sections:
  - block: about.biography
    id: about
    content:
-     title: Biography
+     title: About Me
      # Choose a user profile to display (a folder name within `content/authors/`)
      username: admin
 #  - block: skills
@@ -75,11 +75,19 @@ sections:
          date_start: '2023-03-01'
          date_end: ''
          description: |2-
-             * Established the first theoretical computer science student-run organization at UCLA
-             * Recruited over 40 graduate and undergraduate students
-             * Organized a reading group to present topics in cryptography and coding theory
-
-
+             * Established the first theoretical computer science student-run organization at UCLA and recruited over 40 graduate and undergraduate students
+             * Organized quarterly reading groups to present topics in lattice cryptography, zero-knowledge proofs, secure computation, etc.
+             * Hosted exam review sessions for Algorithms and Complexity [CS 180] and Theory of Computation [CS 181]
+       - title: Course Reader | Theory of Computation [CS 181]
+         company: UCLA Department of Computer Science
+         company_url: ''
+         company_logo: ''
+         location: California
+         date_start: '2024-03-01'
+         date_end: '2024-06-01'
+         description: |2-
+             * Graded weekly proof-based homeworks for theory of computation 
+             * Provided 150+ students with detailed individual feedback 
        - title: Lead Instructor | Intermediate 2A
          company: Olga Radko Endowed Math Circle
          company_url: ''
@@ -96,20 +104,20 @@ sections:
          company_logo: ''
          location: California
          date_start: '2024-01-01'
-         date_end: ''
+         date_end: '2024-04-01'
          description: |2-
              * Created rubrics and graded weekly proof-based homeworks for discrete mathematics
-             * Provided more than 80 students with detailed individual feedback 
+             * Provided 80+ students with detailed individual feedback 
        - title: Course Reader | Honors Linear Algebra [Math 115AH]
          company: UCLA Department of Mathematics
          company_url: ''
          company_logo: ''
          location: California
          date_start: '2023-03-01'
-         date_end: '2023-12-01'
+         date_end: '2024-06-01'
          description: |2-
              * Created rubrics and graded weekly proof-based homeworks for honors linear algebra 
-             * Provided more than 150 students with detailed individual feedback 
+             * Provided 200+ students with detailed individual feedback 
        - title: Assistant Instructor | Advanced 3
          company: Olga Radko Endowed Math Circle
          company_url: ''

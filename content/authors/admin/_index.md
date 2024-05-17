@@ -46,7 +46,7 @@ organizations:
 
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include cryptography, large language models and combinatorics.
+bio: I am a junior at UCLA, conducting research in cryptography with a focus on secure multiparty computation and its applications.
 
 
 
@@ -63,17 +63,12 @@ bio: My research interests include cryptography, large language models and combi
 # Education to show in About widget
 education:
   courses:
-    - course: M.A. | Mathematics
+    - course: M.A. | Applied Mathematics
       institution: University of California, Los Angeles
-      year: 2025
-    - course: B.S. | Computer Science
+      year: 2024
+    - course: B.S. | Mathematics of Computation
       institution: University of California, Los Angeles
-      year: 2025
-    - course: B.S. | Mathematics
-      institution: University of California, Los Angeles
-      year: 2025
-
-
+      year: 2024
 
 
 # Skills
@@ -159,5 +154,5 @@ highlight_name: true
 
 
 
-Nakul Khambhati is a junior at the University of California, Los Angeles where he is pursuing an integrated masters program in Computer Science and Mathematics. His research interests include **cryptography**, **large language models** and **combinatorics**. He is currently involved in research projects with [Prof. Rafail Ostrovsky](https://web.cs.ucla.edu/~rafail/) and [Prof. Amit Sahai](https://web.cs.ucla.edu/~sahai/). He is the president and co-founder of [Theory@UCLA](https://www.theoryatucla.com/), a theoretical computer science student organization, and a lead instructor for the [Olga Radko Endowed Math Circle](https://circles.math.ucla.edu/circles/).
+I am a junior at UCLA, conducting research in cryptography with a focus on secure multiparty computation and its applications. I am advised by [Prof. Rafail Ostrovsky](https://web.cs.ucla.edu/~rafail/). Additionally, I am the president and a co-founder of [Theory@UCLA](https://www.theoryatucla.com/), a theoretical CS club. I am also a lead instructor for the [Olga Radko Endowed Math Circle](https://circles.math.ucla.edu/circles/).
 {style="text-align: justify;"}
