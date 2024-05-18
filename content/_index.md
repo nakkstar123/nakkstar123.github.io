@@ -173,13 +173,18 @@ sections:
      text: |- 
           ## Olga Radko Endowed Math Circle Worksheets
 
-          - [Optimization in Optics](https://circles.math.ucla.edu/circles/events.shtml?id=3370) - Nov 6, 2022
-          - [Optimization in Geometry](https://circles.math.ucla.edu/circles/events.shtml?id=3387) - Nov 20, 2022
+          - <strong>[Optimization in Optics](https://circles.math.ucla.edu/circles/events.shtml?id=3370) - Nov 6, 2022 </strong>
+          - <strong>[Optimization in Geometry](https://circles.math.ucla.edu/circles/events.shtml?id=3387) - Nov 20, 2022 </strong>
           - [Combinatorics](https://circles.math.ucla.edu/circles/events.shtml?id=3857) - Oct 8, 2023
           - [Induction](https://circles.math.ucla.edu/circles/events.shtml?id=3873) - Oct 15, 2023
-          - [Error Correcting Codes](https://circles.math.ucla.edu/circles/events.shtml?id=3919) - Oct 29, 2023
-          - [Graph Games: Sim and Sprouts](https://circles.math.ucla.edu/circles/events.shtml?id=3961) - Nov 19, 2023
-          - [Reed Solomon Codes](https://circles.math.ucla.edu/circles/events.shtml?id=3992) - Dec 10, 2023
+          - <strong>[Error Correcting Codes](https://circles.math.ucla.edu/circles/events.shtml?id=3919) - Oct 29, 2023 </strong>
+          - <strong>[Graph Games: Sim and Sprouts](https://circles.math.ucla.edu/circles/events.shtml?id=3961) - Nov 19, 2023 </strong>
+          - [Reed Solomon Codes](https://circles.math.ucla.edu/circles/events.shtml?id=3992) - Dec 10, 2023 
+          - <strong>[Information Theory](https://circles.math.ucla.edu/circles/events.shtml?id=4037) - Jan 14, 2024 </strong>
+          - [Balanced Trees and Fibonacci Numbers](https://circles.math.ucla.edu/circles/events.shtml?id=4074) - Jan 28, 2024
+          - <strong>[Counting Hats and Euler's number](https://circles.math.ucla.edu/circles/events.shtml?id=4115) - Feb 18, 2024 </strong>
+          - [Finite Fields](https://circles.math.ucla.edu/circles/events.shtml?id=4225) - April 14, 2024
+          - [Tiling and Coloring](https://circles.math.ucla.edu/circles/events.shtml?id=4302) - May 12, 2024
 
      filters:
        folders:
