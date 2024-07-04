@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>3 | Nakul Khambhati</title>
+    <link>http://localhost:1313/publication-type/3/</link>
+      <atom:link href="http://localhost:1313/publication-type/3/index.xml" rel="self" type="application/rss+xml" />
+    <description>3</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Apr 2024 20:00:07 +0530</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>3</title>
+      <link>http://localhost:1313/publication-type/3/</link>
+    </image>
+    
+    <item>
+      <title>Private Certifier Intersection*</title>
+      <link>http://localhost:1313/publications/pci/</link>
+      <pubDate>Mon, 01 Apr 2024 20:00:07 +0530</pubDate>
+      <guid>http://localhost:1313/publications/pci/</guid>
+      <description>&lt;p&gt;*This paper is a &lt;strong&gt;work in progress&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;We build on previous work to present an efficient protocol for two or more parties holding certificates to identify a common set of valid certifiers without revealing any information about the other certificates. We optimize our protocol by performing signature verification using authenticated shares and set intersection using garbled circuits.&amp;rdquo;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>MPC in the Sky*</title>
+      <link>http://localhost:1313/publications/sky/</link>
+      <pubDate>Fri, 01 Mar 2024 20:00:07 +0530</pubDate>
+      <guid>http://localhost:1313/publications/sky/</guid>
+      <description>&lt;p&gt;*This paper is a &lt;strong&gt;work in progress&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;We present and prove security of a protocol for two clients to securely authenticate to an AWS server. We describe how this enables very efficient secure computation by off-loading heavy computation to the cloud. We use MP-SDPZ for implementing TLS-in-MPC and encrypting web requests.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Proactive MPC with Low Communication*</title>
+      <link>http://localhost:1313/publications/polc/</link>
+      <pubDate>Thu, 01 Feb 2024 20:00:07 +0530</pubDate>
+      <guid>http://localhost:1313/publications/polc/</guid>
+      <description>&lt;p&gt;*This paper is a &lt;strong&gt;work in progress&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;It was shown in &lt;a href=&#34;https://eprint.iacr.org/2017/520&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;[GIOZ19]&lt;/a&gt; that enforcing sublinear communication complexity in secure multiparty computation affects the feasibility bounds on the number of corrupted parties that can be tolerated in the setting of information-theoretic security.&lt;/p&gt;
+&lt;p&gt;We provide an investigation of security in the presence of semi-honest and malicious
+mobile adversaries with erasures. We prove bounds on the corruptions that can be tolerated, which we also show to be essentially optimal.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Watermarking LLMs*</title>
+      <link>http://localhost:1313/publications/llm/</link>
+      <pubDate>Mon, 01 Jan 2024 20:00:07 +0530</pubDate>
+      <guid>http://localhost:1313/publications/llm/</guid>
+      <description>&lt;p&gt;*This project is a &lt;strong&gt;work in progress&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;We engineer and analyze random walk attacks on state-of-the-art watermarking schemes in different entropy settings. To support our claims, we present experimental evidence obtained by watermarking open-source models such as Mixtral.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
