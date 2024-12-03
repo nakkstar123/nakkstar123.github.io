@@ -154,5 +154,5 @@ highlight_name: true
 
 
 
-I am a junior at UCLA, conducting research in cryptography with a focus on secure multiparty computation and its applications. I am advised by [Prof. Rafail Ostrovsky](https://web.cs.ucla.edu/~rafail/). Additionally, I am the president and a co-founder of [Theory@UCLA](https://www.theoryatucla.com/), a theoretical CS club. I am also a lead instructor for the [Olga Radko Endowed Math Circle](https://circles.math.ucla.edu/circles/).
+I am an incoming PhD candidate at UCLA, conducting research in cryptography with a focus on secure multiparty computation and its applications. I am advised by [Prof. Rafail Ostrovsky](https://web.cs.ucla.edu/~rafail/). Additionally, I am the president and a co-founder of [Theory@UCLA](https://www.theoryatucla.com/), a theoretical CS club. I am also a lead instructor for the [Olga Radko Endowed Math Circle](https://circles.math.ucla.edu/circles/).
 {style="text-align: justify;"}
