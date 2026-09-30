@@ -7,7 +7,7 @@ capitalizeListTitles = false
 ignoreFiles = ['content/drafts/', 'content/_templates/', 'content/attachments/']
 
 [params]
-  description = "Learning notes: cryptography, statistical learning, AI safety."
+  description = "Learning notes."
   # Set to true to ask search engines not to index the site (it stays public by URL).
   noindex = false
 
