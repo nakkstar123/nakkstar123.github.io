@@ -1,0 +1,36 @@
+{{- $_ := .Content -}}{{/* render content first so the math hook can flag the page */}}
+<!DOCTYPE html>
+<html lang="{{ site.Language.Locale }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }} · {{ site.Title }}{{ end }}</title>
+  <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ site.Params.description }}{{ end }}">
+  {{- if site.Params.noindex }}
+  <meta name="robots" content="noindex, nofollow">
+  {{- end }}
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,300;0,500;1,300&family=Fira+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
+  {{- if .Store.Get "hasMath" }}
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/katex.min.css" crossorigin="anonymous">
+  {{- end }}
+  {{- with .OutputFormats.Get "rss" }}
+  <link rel="alternate" type="application/rss+xml" href="{{ .RelPermalink }}" title="{{ site.Title }}">
+  {{- end }}
+</head>
+<body>
+  <header class="site-header">
+    <a class="site-title" href="{{ "/" | relURL }}">{{ site.Title }}</a>
+    <nav>
+      {{- range site.Menus.main }}
+      <a href="{{ .URL }}">{{ .Name }}</a>
+      {{- end }}
+    </nav>
+  </header>
+  <main>
+    {{ block "main" . }}{{ end }}
+  </main>
+</body>
+</html>

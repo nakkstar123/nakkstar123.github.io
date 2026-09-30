@@ -1,0 +1,7 @@
+/public/
+/resources/_gen/
+/.bin/
+.hugo_build.lock
+.DS_Store
+# Raw journal material. Never committed (the repo is public).
+/drafts/

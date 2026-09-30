@@ -1,0 +1,9 @@
+{{- $opts := dict "output" "htmlAndMathml" "displayMode" (eq .Type "block") "macros" hugo.Data.katex_macros }}
+{{- with try (transform.ToMath .Inner $opts) }}
+  {{- with .Err }}
+    {{- errorf "KaTeX failed to render %q at %s: %s" $.Inner $.Position . }}
+  {{- else }}
+    {{- .Value }}
+    {{- $.Page.Store.Set "hasMath" true }}
+  {{- end }}
+{{- end -}}

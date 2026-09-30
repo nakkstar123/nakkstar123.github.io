@@ -1,0 +1,21 @@
+{{ define "main" }}
+<article>
+  <h1>{{ .Title }}</h1>
+  <p class="meta">
+    <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
+    {{- if and .Lastmod (gt (.Lastmod.Format "2006-01-02") (.Date.Format "2006-01-02")) }}
+    · updated <time datetime="{{ .Lastmod.Format "2006-01-02" }}">{{ .Lastmod.Format "January 2, 2006" }}</time>
+    {{- end }}
+    {{- with .GetTerms "tags" }}
+    · {{ range $i, $t := . }}{{ if $i }}, {{ end }}<a href="{{ $t.RelPermalink }}">{{ $t.LinkTitle }}</a>{{ end }}
+    {{- end }}
+  </p>
+  {{- if or .Params.confidence .Params.status }}
+  <p class="epistemic">
+    {{- with .Params.confidence }}<span><em>Confidence:</em> {{ . | markdownify }}</span>{{ end }}
+    {{- with .Params.status }}<span><em>Status:</em> {{ . | markdownify }}</span>{{ end }}
+  </p>
+  {{- end }}
+  {{ .Content }}
+</article>
+{{ end }}

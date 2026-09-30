@@ -1,0 +1,105 @@
+:root {
+  --bg: #fdfdfc;
+  --fg: #1a1a1a;
+  --muted: #777;
+  --rule: #e6e6e3;
+  --link: #2a62c9;
+  --code-bg: #f3f3f0;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #141414;
+    --fg: #e4e4e0;
+    --muted: #8f8f8a;
+    --rule: #2c2c2a;
+    --link: #7fa7f0;
+    --code-bg: #1f1f1e;
+  }
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0 auto;
+  max-width: 44rem;
+  padding: 2.5rem 1rem 5rem;
+  background: var(--bg);
+  color: var(--fg);
+  font: 300 1.0625rem/1.65 "Fira Sans", system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+strong, b, h1, h2, h3, h4 { font-weight: 500; }
+
+.site-header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: .5rem 1.5rem;
+  margin-bottom: 2.5rem;
+}
+.site-title { color: var(--fg); font-weight: 500; font-size: 1.15rem; }
+.site-header nav a { margin-left: 1.25rem; color: var(--muted); }
+.site-header nav a:first-child { margin-left: 0; }
+.site-header nav a:hover { color: var(--fg); }
+
+h1 { font-size: 1.6rem; line-height: 1.25; margin: 0 0 .4rem; }
+h2 { font-size: 1.25rem; margin: 2.2rem 0 .6rem; }
+h3 { font-size: 1.05rem; margin: 1.8rem 0 .5rem; }
+
+.meta { color: var(--muted); font-size: .9rem; margin: 0 0 1.5rem; }
+.meta a { color: var(--muted); text-decoration: underline; text-decoration-color: var(--rule); }
+
+.epistemic {
+  display: flex;
+  flex-direction: column;
+  gap: .15rem;
+  font-size: .92rem;
+  border-left: 2px solid var(--rule);
+  padding-left: .9rem;
+  margin: -.5rem 0 1.8rem;
+  color: var(--muted);
+}
+
+.year { color: var(--muted); font-weight: 300; font-size: .95rem; margin: 1.6rem 0 .3rem; }
+.note-list, .tag-list { list-style: none; padding: 0; margin: 0; }
+.note-list li { display: flex; gap: 1rem; padding: .15rem 0; }
+.note-list time {
+  flex: 0 0 3.5rem;
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+}
+.draft-flag {
+  font-size: .75rem;
+  color: #b25b00;
+  border: 1px solid currentColor;
+  border-radius: 3px;
+  padding: 0 .3rem;
+  align-self: center;
+}
+.tag-list li { padding: .1rem 0; }
+.count { color: var(--muted); font-size: .85rem; margin-left: .3rem; }
+
+blockquote {
+  margin: 1.2rem 0;
+  padding-left: 1rem;
+  border-left: 2px solid var(--rule);
+  color: var(--muted);
+}
+
+code, pre { font-family: "Fira Mono", ui-monospace, monospace; font-size: .88em; }
+code { background: var(--code-bg); padding: .1em .3em; border-radius: 3px; }
+pre { background: var(--code-bg); padding: .8rem 1rem; border-radius: 4px; overflow-x: auto; line-height: 1.45; }
+pre code { background: none; padding: 0; }
+
+hr { border: 0; border-top: 1px solid var(--rule); margin: 2rem 0; }
+img { max-width: 100%; }
+
+.katex { font-size: 1.05em; }
+.katex-display { overflow-x: auto; overflow-y: hidden; padding: .2rem 0; }
+
+.footnotes { font-size: .9rem; color: var(--muted); margin-top: 3rem; }
+.footnotes hr { margin-bottom: 1rem; }

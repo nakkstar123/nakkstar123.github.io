@@ -1,0 +1,42 @@
+baseURL = "http://localhost:1313/"
+locale = "en-US"
+title = "Nakul Khambhati"
+enableRobotsTXT = true
+capitalizeListTitles = false
+
+[params]
+  description = "Learning notes: cryptography, statistical learning, AI safety."
+  # Set to true to ask search engines not to index the site (it stays public by URL).
+  noindex = false
+
+[taxonomies]
+  tag = "tags"
+
+[markup.goldmark.extensions.passthrough]
+  enable = true
+  [markup.goldmark.extensions.passthrough.delimiters]
+    block = [['\[', '\]'], ['$$', '$$']]
+    inline = [['\(', '\)'], ['$', '$']]
+
+[markup.goldmark.extensions]
+  footnote = true
+
+[markup.highlight]
+  noClasses = false
+  style = "monokailight"
+
+[menus]
+  [[menus.main]]
+    name = "Notes"
+    pageRef = "/notes"
+    weight = 1
+  [[menus.main]]
+    name = "Tags"
+    pageRef = "/tags"
+    weight = 2
+
+[outputs]
+  home = ["html", "rss"]
+  section = ["html", "rss"]
+  taxonomy = ["html"]
+  term = ["html"]

@@ -1,0 +1,7 @@
+{{ define "main" }}
+{{ .Content }}
+{{ with where site.RegularPages "Section" "notes" }}
+<h2>Notes</h2>
+{{ partial "note-list.html" . }}
+{{ end }}
+{{ end }}
