@@ -1,19 +1,20 @@
 # brain-dump
 
-Learning notes. Built with [Hugo](https://gohugo.io); pushing to `main` deploys to GitHub Pages.
+Learning notes, live at <https://nakkstar123.github.io/>. Built with [Hugo](https://gohugo.io); pushing to `main` deploys.
 
-## Writing
+## Writing (Obsidian)
 
-```sh
-make new name=some-slug     # creates content/notes/some-slug.md with draft: true
-make serve                  # preview at http://localhost:1313, drafts included
-```
+Open `content/` as an Obsidian vault.
 
-A note is published when you set `draft: false` (or remove the line) and push.
+- **Write:** new notes land in `drafts/`, which never leaves this machine (gitignored, and Hugo skips it). Insert the `note` template to add the properties (`date`, `tags`, `confidence`, `status`).
+- **Publish:** drag the note into `notes/`, then run **Obsidian Git: Commit and sync** from the command palette. The site updates a minute later.
+- **Unpublish:** drag it back to `drafts/` and sync.
 
-- **Math:** `$...$` inline, `$$...$$` display. It's rendered at build time with KaTeX, so a typo in the LaTeX fails the build instead of shipping broken math. Shared macros live in `data/katex_macros.toml`.
-- **Front matter:** `tags`, plus optional `confidence` and `status` shown under the title. When you revise a view, add `lastmod: YYYY-MM-DD` and say what changed; don't silently rewrite.
-- **Private material:** `drafts/` is gitignored. Put raw journal entries there. A note with `draft: true` in `content/` does not appear on the site, but its source **is** visible in this public repo.
+The filename is the title, and the URL is the filename in lowercase with dashes (`Why PRFs matter.md` becomes `/notes/why-prfs-matter/`). Renaming a published note changes its URL.
+
+- **Math:** `$...$` inline, `$$...$$` display. KaTeX renders it at build time, so a LaTeX typo fails the build instead of shipping. Shared macros are in `data/katex_macros.toml`.
+- **Links and images:** normal Obsidian links to other notes and pasted images (saved to `attachments/`) work on the site. A link to a note that's still in `drafts/` shows as plain text.
+- **Changing your mind:** add `lastmod: YYYY-MM-DD` and update `status` instead of silently rewriting.
 - **Search engines:** set `noindex = true` in `hugo.toml` to ask crawlers to stay away. The site stays reachable by URL.
 
-`make` uses `.bin/hugo` if it exists (a pinned binary, gitignored), otherwise `hugo` on your PATH. CI pins the version in `.github/workflows/deploy.yml`; keep them in sync.
+`make serve` previews at <http://localhost:1313>. `make` uses `.bin/hugo` if present (pinned, gitignored), else `hugo` on your PATH. CI pins the version in `.github/workflows/deploy.yml`.

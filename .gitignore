@@ -3,5 +3,6 @@
 /.bin/
 .hugo_build.lock
 .DS_Store
-# Raw journal material. Never committed (the repo is public).
-/drafts/
+# Private drafts (the repo is public) and Obsidian's local settings.
+/content/drafts/
+/content/.obsidian/

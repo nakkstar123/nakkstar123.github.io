@@ -1,0 +1,19 @@
+{{- /* Obsidian writes links between notes as relative paths to .md files; point them at the page instead. */ -}}
+{{- $href := .Destination }}
+{{- $ok := true }}
+{{- $u := urls.Parse .Destination }}
+{{- if and (not $u.IsAbs) (strings.HasSuffix $u.Path ".md") }}
+  {{- $target := path.Join .Page.File.Dir (replace $u.Path "%20" " ") }}
+  {{- with site.GetPage $target }}
+    {{- $href = .RelPermalink }}
+    {{- with $u.Fragment }}{{ $href = printf "%s#%s" $href (anchorize .) }}{{ end }}
+  {{- else }}
+    {{- $ok = false }}
+    {{- warnf "%s links to %q, which isn't published; rendering it as plain text." .Page.File.Path .Destination }}
+  {{- end }}
+{{- end }}
+{{- if $ok -}}
+<a href="{{ $href | safeURL }}"{{ with .Title }} title="{{ . }}"{{ end }}{{ if $u.IsAbs }} rel="noopener"{{ end }}>{{ .Text }}</a>
+{{- else -}}
+{{ .Text }}
+{{- end -}}

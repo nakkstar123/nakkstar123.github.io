@@ -1,0 +1,7 @@
+{{- /* Obsidian writes pasted images as relative paths into attachments/; serve them from /attachments/. */ -}}
+{{- $src := .Destination }}
+{{- $parts := split $src "attachments/" }}
+{{- if and (not (strings.Contains $src "://")) (gt (len $parts) 1) }}
+  {{- $src = printf "/attachments/%s" (index $parts (sub (len $parts) 1)) | relURL }}
+{{- end -}}
+<img src="{{ $src | safeURL }}" alt="{{ .Text }}"{{ with .Title }} title="{{ . }}"{{ end }} loading="lazy">

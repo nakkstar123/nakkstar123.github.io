@@ -1,6 +1,7 @@
 {{ define "main" }}
+{{- if not .Params.date }}{{ errorf "%s has no date: add `date: YYYY-MM-DD` to its properties." .File.Path }}{{ end }}
 <article>
-  <h1>{{ .Title }}</h1>
+  <h1>{{ .Title | default .File.ContentBaseName }}</h1>
   <p class="meta">
     <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
     {{- if and .Lastmod (gt (.Lastmod.Format "2006-01-02") (.Date.Format "2006-01-02")) }}

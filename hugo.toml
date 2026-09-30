@@ -3,6 +3,8 @@ locale = "en-US"
 title = "Nakul Khambhati"
 enableRobotsTXT = true
 capitalizeListTitles = false
+# The Obsidian vault is content/. These parts of it never become pages.
+ignoreFiles = ['content/drafts/', 'content/_templates/', 'content/attachments/']
 
 [params]
   description = "Learning notes: cryptography, statistical learning, AI safety."
@@ -40,3 +42,20 @@ capitalizeListTitles = false
   section = ["html", "rss"]
   taxonomy = ["html"]
   term = ["html"]
+
+# Images pasted in Obsidian land in content/attachments/ and are served at /attachments/.
+[[module.mounts]]
+  source = "content"
+  target = "content"
+[[module.mounts]]
+  source = "static"
+  target = "static"
+[[module.mounts]]
+  source = "content/attachments"
+  target = "static/attachments"
+[[module.mounts]]
+  source = "layouts"
+  target = "layouts"
+[[module.mounts]]
+  source = "data"
+  target = "data"
