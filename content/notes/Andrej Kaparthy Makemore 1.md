@@ -1,3 +1,9 @@
+---
+date: 2026-10-05
+tags: []
+confidence: ""
+status: ""
+---
 *AI disclosure: I used GPT-6.1 Sol High to edit my original free-write and add technical context. Substantive AI additions are marked throughout.*
 ## Context
 
