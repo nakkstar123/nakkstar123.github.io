@@ -5,7 +5,7 @@ tags:
 confidence: ""
 status: ""
 ---
-AI disclosure: I used ChatGPT to edit my original free-write and add technical context. Substantive AI additions are marked throughout.*
+*AI disclosure: I used ChatGPT to edit my original free-write and add technical context. Substantive AI additions are marked throughout.*
 
 *These notes were written before watching part 3. They revisit the embeddings, hidden layer, and backpropagation introduced in part 2.*
 
