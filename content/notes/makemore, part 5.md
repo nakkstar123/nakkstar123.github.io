@@ -1,6 +1,7 @@
 ---
 date: 2026-10-15
-tags: []
+tags:
+  - makemore
 confidence: ""
 status: ""
 ---
