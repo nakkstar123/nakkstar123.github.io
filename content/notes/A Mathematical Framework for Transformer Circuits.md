@@ -55,8 +55,10 @@ These are my takeaways from [Neel’s walkthrough](https://www.youtube.com/watch
     > 
     > \[ \operatorname{ReLU}(Rx)\neq R\,\operatorname{ReLU}(x) \]
     > 
-    > for an arbitrary rotation \(R\). Rotating the hidden coordinates changes which quantities are individually thresholded. In a purely linear composition, a basis change can instead be absorbed into adjacent maps.
-    > 
+    > for an arbitrary rotation \(R\). Rotating the hidden coordinates changes which quantities are individually thresholded. In a purely linear composition, a basis change can instead be absorbed into adjacent maps. This privileges the MLP’s neuron axes. It does not by itself explain why particular residual-stream coordinates become outliers: the MLP reads the residual stream through a learned linear map, so its neuron axes need not align with the residual coordinates.[^residual-basis]
+    > Adam can also privilege coordinates through training: it rescales parameter updates using coordinatewise gradient statistics and is not rotation equivariant. Following Anthropic’s hypothesis, Caples and Neuhaus compared 12M-parameter TinyStories transformers trained with Adam and SGD with momentum. At comparable loss, Adam produced strong residual-stream outlier channels, while the SGD model’s excess kurtosis remained near zero.[^adam-basis] 
+    > This provides causal evidence for Adam’s role in those outliers, without establishing that every form of basis privilege comes from Adam.
+    > Neither source of basis privilege guarantees one clean human concept per coordinate.
     > This privileges neuron axes without guaranteeing that each neuron represents one clean human concept. PCA finds high-variance directions in a dataset; it does not automatically recover the model’s computational features or an architecturally privileged basis.[^superposition]
     
 - **Superposition is a tradeoff between capacity and interference.** The model benefits from representing many features, but also needs to read them accurately enough to predict. Sparsity helps because features that rarely occur together interfere less often. I find this more motivating than just saying “there are more features than dimensions.”
@@ -90,5 +92,7 @@ These are my takeaways from [Neel’s walkthrough](https://www.youtube.com/watch
 ## References
 
 [^superposition]: Elhage et al., [Toy Models of Superposition](https://transformer-circuits.pub/2022/toy_model/index.html).  
+[^residual-basis]: Elhage, Lasenby, and Olah, [Privileged Bases in the Transformer Residual Stream](https://transformer-circuits.pub/2023/privileged-basis/index.html).  
+[^adam-basis]: Caples and Neuhaus, [Adam Optimizer Causes Privileged Basis in Transformer LM Residual Stream](https://www.lesswrong.com/posts/yrhu6MeFddnGRSLtQ/adam-optimizer-causes-privileged-basis-in-transformer-lm).  
 [^composition]: [ARENA’s composition-score explanation](https://github.com/ARENA-education/ARENA_materials/blob/main/chapter1_transformer_interp/instructions/pages/02_%5B1.2%5D_Intro_to_Mech_Interp.md), which expands on the framework paper’s metric.  
 [^induction]: Olsson et al., [In-context Learning and Induction Heads](https://arxiv.org/abs/2209.11895).
