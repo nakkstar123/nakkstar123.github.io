@@ -1,0 +1,39 @@
+/* Loaded only for this article; the rest of the site keeps its existing layout. */
+body { max-width: 54rem; }
+
+article img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 1.5rem 0 .75rem;
+}
+
+article table {
+  display: block;
+  width: 100%;
+  overflow-x: auto;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+  font-size: .9em;
+  line-height: 1.5;
+}
+
+article th, article td {
+  min-width: 7.5rem;
+  padding: .6rem .7rem;
+  border-bottom: 1px solid var(--rule);
+  text-align: left;
+  vertical-align: top;
+}
+
+article th { background: var(--code-bg); }
+
+article p:has(> img) + p:has(> em:only-child) {
+  color: var(--muted);
+  font-size: .9em;
+  line-height: 1.5;
+}
+
+@media (max-width: 600px) {
+  article th, article td { padding: .5rem; }
+}
