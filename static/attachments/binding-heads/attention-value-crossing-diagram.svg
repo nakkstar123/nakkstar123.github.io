@@ -193,61 +193,61 @@ z
 " clip-path="url(#p399929276c)" style="fill: #727b83; stroke: #727b83; stroke-width: 1.6; stroke-linecap: round"/>
    </g>
    <g id="text_1">
-    <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #727b83" x="396" y="26.07375" transform="rotate(-0 396 26.07375)">From two unmodified runs</text>
+    <text style="font-size: 12px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: middle; fill: #727b83" x="396" y="26.07375" transform="rotate(-0 396 26.07375)">From two unmodified runs</text>
    </g>
    <g id="text_2">
-    <text style="font-weight: 700; font-size: 15px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #236b98" x="187.2" y="73.920469" transform="rotate(-0 187.2 73.920469)">Query control</text>
+    <text style="font-weight: 700; font-size: 15px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: middle; fill: #236b98" x="187.2" y="73.920469" transform="rotate(-0 187.2 73.920469)">Query control</text>
    </g>
    <g id="text_3">
-    <text style="font-size: 12.5px; font-family: 'DejaVu Sans'; fill: #26323b" transform="translate(116.474414 96.626719)">31.7 attention weights</text>
-    <text style="font-size: 12.5px; font-family: 'DejaVu Sans'; fill: #26323b" transform="translate(111.893359 115.962656)">from the final Box token</text>
+    <text style="font-size: 12.5px; font-family: 'DejaVu Sans', Arial, sans-serif; fill: #26323b" transform="translate(116.474414 96.626719)">31.7 attention weights</text>
+    <text style="font-size: 12.5px; font-family: 'DejaVu Sans', Arial, sans-serif; fill: #26323b" transform="translate(111.893359 115.962656)">from the final Box token</text>
    </g>
    <g id="text_4">
-    <text style="font-weight: 700; font-size: 15px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #b65e25" x="604.8" y="75.201328" transform="rotate(-0 604.8 75.201328)">Donor</text>
+    <text style="font-weight: 700; font-size: 15px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: middle; fill: #b65e25" x="604.8" y="75.201328" transform="rotate(-0 604.8 75.201328)">Donor</text>
    </g>
    <g id="text_5">
-    <text style="font-size: 12.5px; font-family: 'DejaVu Sans'; fill: #26323b" transform="translate(534.157422 96.626719)">Values used by head 7</text>
-    <text style="font-size: 12.5px; font-family: 'DejaVu Sans'; fill: #26323b" transform="translate(524.026563 114.751719)">at aligned token positions</text>
+    <text style="font-size: 12.5px; font-family: 'DejaVu Sans', Arial, sans-serif; fill: #26323b" transform="translate(534.157422 96.626719)">Values used by head 7</text>
+    <text style="font-size: 12.5px; font-family: 'DejaVu Sans', Arial, sans-serif; fill: #26323b" transform="translate(524.026563 114.751719)">at aligned token positions</text>
    </g>
    <g id="text_6">
-    <text style="font-weight: 700; font-size: 15px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #26323b" x="396" y="208.619062" transform="rotate(-0 396 208.619062)">31.7's crossed output</text>
+    <text style="font-weight: 700; font-size: 15px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: middle; fill: #26323b" x="396" y="208.619062" transform="rotate(-0 396 208.619062)">31.7's crossed output</text>
    </g>
    <g id="text_7">
-    <text style="font-size: 12.5px; font-family: 'DejaVu Sans'; fill: #26323b" transform="translate(255.386719 231.266719)">Apply query-control weights to donor values:</text>
-    <text style="font-size: 12.5px; font-family: 'DejaVu Sans'; fill: #26323b" transform="translate(284.092773 249.391719)">one 128-dimensional weighted sum</text>
+    <text style="font-size: 12.5px; font-family: 'DejaVu Sans', Arial, sans-serif; fill: #26323b" transform="translate(255.386719 231.266719)">Apply query-control weights to donor values:</text>
+    <text style="font-size: 12.5px; font-family: 'DejaVu Sans', Arial, sans-serif; fill: #26323b" transform="translate(284.092773 249.391719)">one 128-dimensional weighted sum</text>
    </g>
    <g id="text_8">
-    <text style="font-weight: 700; font-size: 14px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #26323b" x="44.64" y="311.248438" transform="rotate(-0 44.64 311.248438)">Query-control run</text>
+    <text style="font-weight: 700; font-size: 14px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: start; fill: #26323b" x="44.64" y="311.248438" transform="rotate(-0 44.64 311.248438)">Query-control run</text>
    </g>
    <g id="text_9">
-    <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #26323b" x="44.64" y="335.781562" transform="rotate(-0 44.64 335.781562)">Block 31, final Box token</text>
+    <text style="font-size: 12px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: start; fill: #26323b" x="44.64" y="335.781562" transform="rotate(-0 44.64 335.781562)">Block 31, final Box token</text>
    </g>
    <g id="text_10">
-    <text style="font-weight: 700; font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #26323b" x="154.8" y="379.246562" transform="rotate(-0 154.8 379.246562)">Heads 0–6</text>
+    <text style="font-weight: 700; font-size: 13px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: middle; fill: #26323b" x="154.8" y="379.246562" transform="rotate(-0 154.8 379.246562)">Heads 0–6</text>
    </g>
    <g id="text_11">
-    <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #26323b" x="154.8" y="402.91125" transform="rotate(-0 154.8 402.91125)">Compute normally</text>
+    <text style="font-size: 12px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: middle; fill: #26323b" x="154.8" y="402.91125" transform="rotate(-0 154.8 402.91125)">Compute normally</text>
    </g>
    <g id="text_12">
-    <text style="font-weight: 700; font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #ac3e43" x="396" y="377.987188" transform="rotate(-0 396 377.987188)">Head 7 output</text>
+    <text style="font-weight: 700; font-size: 13px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: middle; fill: #ac3e43" x="396" y="377.987188" transform="rotate(-0 396 377.987188)">Head 7 output</text>
    </g>
    <g id="text_13">
-    <text style="font-size: 11.5px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #26323b" x="396" y="402.773281" transform="rotate(-0 396 402.773281)">Replaced by crossed output</text>
+    <text style="font-size: 11.5px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: middle; fill: #26323b" x="396" y="402.773281" transform="rotate(-0 396 402.773281)">Replaced by crossed output</text>
    </g>
    <g id="text_14">
-    <text style="font-weight: 700; font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #26323b" x="637.2" y="379.246562" transform="rotate(-0 637.2 379.246562)">Heads 8–15</text>
+    <text style="font-weight: 700; font-size: 13px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: middle; fill: #26323b" x="637.2" y="379.246562" transform="rotate(-0 637.2 379.246562)">Heads 8–15</text>
    </g>
    <g id="text_15">
-    <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #26323b" x="637.2" y="402.91125" transform="rotate(-0 637.2 402.91125)">Compute normally</text>
+    <text style="font-size: 12px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: middle; fill: #26323b" x="637.2" y="402.91125" transform="rotate(-0 637.2 402.91125)">Compute normally</text>
    </g>
    <g id="text_16">
-    <text style="font-size: 11.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #ac3e43" x="416.16" y="312.773281" transform="rotate(-0 416.16 312.773281)">Replace only this output slice</text>
+    <text style="font-size: 11.5px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: start; fill: #ac3e43" x="416.16" y="312.773281" transform="rotate(-0 416.16 312.773281)">Replace only this output slice</text>
    </g>
    <g id="text_17">
-    <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #26323b" x="396" y="461.95125" transform="rotate(-0 396 461.95125)">Concatenate the 16 head outputs</text>
+    <text style="font-size: 12px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: middle; fill: #26323b" x="396" y="461.95125" transform="rotate(-0 396 461.95125)">Concatenate the 16 head outputs</text>
    </g>
    <g id="text_18">
-    <text style="font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #26323b" x="396" y="518.926406" transform="rotate(-0 396 518.926406)">Shared output projection (o_proj)</text>
+    <text style="font-size: 13px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: middle; fill: #26323b" x="396" y="518.926406" transform="rotate(-0 396 518.926406)">Shared output projection (o_proj)</text>
    </g>
   </g>
  </g>
