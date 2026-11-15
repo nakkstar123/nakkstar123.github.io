@@ -21,6 +21,23 @@ This exploratory investigation builds on *Mixing Mechanisms*. I studied how chan
 - [NNsight notebook](/notebooks/binding-heads/): self-contained code, saved GPU outputs and interactive attention visualizations.
 - [Process note](/notes/in-context-retrieval-process/): why I chose the project, how I used AI and what I learned.
 
+## Selected publications
+
+### Duty-Free Bits: Projectivizing Garbling Schemes
+
+Nakul Khambhati, Anwesh Bhattacharya, and David Heath.\
+*ACM CCS 2026* · [Paper](https://eprint.iacr.org/2026/476) · [Code](https://github.com/alpenlabs/duty-free-bits)
+
+### Authenticated Garbling with Tensor Gates
+
+Nakul Khambhati, Turan Vural, David Heath, and Rafail Ostrovsky.\
+*ACM CCS 2026* · [Paper](https://eprint.iacr.org/2025/1831) · [Code](https://github.com/Authenticated-Tensor-Garbling/authenticated-tensor-garbling)
+
+### Garbling Groth16 with Native Group Operations
+
+Nakul Khambhati, Aaron Feickert, Christian Lewe, and Mukesh Tiwari.\
+*Preprint, 2026* · [Paper](https://eprint.iacr.org/2026/2100) · [Code](https://github.com/nakkstar123/grover)
+
 ## Learning notes
 
 I also keep [working notes on machine learning and AI safety](/notes/) as I learn. These range from technical walkthroughs to reflections on papers and blog posts.
