@@ -177,3 +177,5 @@ For the two heads I examined, we can see that combining attention and values fro
 Since 32.7 comes after 31.7, it could change its output in response to the earlier head's message. In the joint crossing, however, I replaced both outputs with fixed vectors constructed from unmodified runs, so the supplied 32.7 output could not reflect a response to the altered 31.7 message. The joint result alone therefore does not establish whether 32.7 adapts to the earlier head's message, and I think this might be another useful thing to investigate in the future. 
 
 *The self-contained [NNsight notebook](/notebooks/binding-heads/) includes the code, saved GPU outputs, and CircuitsVis attention views.*
+
+*For why I chose this project, how I used AI and what I learned, see the [process note](/notes/in-context-retrieval-process/).*
